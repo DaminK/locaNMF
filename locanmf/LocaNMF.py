@@ -571,6 +571,6 @@ def version():
     """ Get version of LocaNMF
 
     """
-    print('version = 1.1')
+    print('version = 1.1.1')
 
 

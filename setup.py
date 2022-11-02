@@ -29,7 +29,7 @@ if '--with-extension' in sys.argv:
 
 setuptools.setup(
     name="locanmf",
-    version="1.0",
+    version="1.1.1",
     author="Ian August Kinsella",
     author_email="iak2199@columbia.edu",
     description="Demixer using Localized semi-Nonnegative Matrix Factorization method",

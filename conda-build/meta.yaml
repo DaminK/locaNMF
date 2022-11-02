@@ -1,17 +1,17 @@
 package:
   name: locanmf
-  version: "1.1"
+  version: "1.1.1"
 
 source:
   path: ../
 
 build:
-  number: 0
+  number: 1
   
 requirements:
   build:
-    - python=3.6
-    - numpy
+    - python={{ python }}
+    - numpy=1.16
     - scipy
     - scikit-learn
     - matplotlib
@@ -22,8 +22,8 @@ requirements:
     - jupyterlab
 
   run:
-    - python=3.6
-    - numpy
+    - python={{ python }}
+    - numpy=1.16
     - scipy
     - scikit-learn
     - matplotlib
